@@ -1,0 +1,80 @@
+$warna:brown;
+
+button{
+    font-family: monospace;
+    background-color: $warna;
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    flex-direction: column;
+
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+//Build-In Modules : Color
+
+//Adjust-Color()
+
+
+button{
+    //  background-color: adjust-color($color: $warna,$green:100,$blue:50,$red:20 );
+    // background-color: adjust-hue($color: $warna, $degrees: 690deg); //Roda Warna
+}
+//Complement - Pilih Warna Yang Bersebrangan // 180degree
+button{
+    // background-color: complement($color:$warna );
+}
+
+//darken
+
+button{
+    // background-color: darken($color: $warna, $amount: 20);
+}
+
+//Lighten
+
+button{
+    // background-color: lighten($color: $warna, $amount: 40);
+}
+
+//Saturate
+
+button{
+    // background-color: saturate($color: $warna, $amount: 40);
+}
+
+//desaturate
+
+button{
+    // background-color: desaturate($color: $warna, $amount: 100);
+}
+
+//grayscale
+button{
+    // background-color: grayscale($color:$warna);
+}
+
+//mix
+button{
+    // background-color: mix($color: $warna, $color: blue, $weight: 0.10);
+}
+
+//Opcaity
+//FadeIn
+
+button{
+    // background-color: fade-in($color: $warna, $amount: 0.5);
+}
+
+//FadeOut
+button{
+    background-color: fade-out($color: $warna, $amount: 0.8);
+}
